@@ -1,0 +1,13 @@
+#!/bin/sh
+date >> lidar.txt
+
+while :
+do
+#i2cset -y 1 0x62 0x00 0x00
+i2cset -y 1 0x62 0x00 0x04
+
+sleep 2
+
+i2cget -y 1 0x62 0x8f w
+i2cget -y 1 0x62 0x8f w >> lidar.txt
+done
