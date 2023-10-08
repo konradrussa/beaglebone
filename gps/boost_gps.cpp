@@ -5,6 +5,7 @@
 #define BUFSIZE 256
 
 int main() {
+	
         boost::asio::io_service io;
         boost::asio::serial_port port(io, "/dev/ttyS2");
         port.set_option(boost::asio::serial_port_base::baud_rate(9600));
@@ -17,4 +18,5 @@ int main() {
                 size_t n = port.read_some(boost::asio::buffer(data, BUFSIZE));
                 std::cout.write(data, n);
         }
+		
 }
