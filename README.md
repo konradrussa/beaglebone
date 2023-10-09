@@ -1,6 +1,8 @@
 # beaglebone
 beaglebone samples based on BeagleBone Blue with Debian GNU/Linux 10 (buster)  and Linux kernel 4.19.94-ti-r42
 
+more on http://strawsondesign.com/docs/librobotcontrol/
+
 /boot/uEnv.txt is configured as follows:
 
 ```
