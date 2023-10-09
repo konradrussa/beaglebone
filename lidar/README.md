@@ -14,3 +14,4 @@ own robotics cape project follow these steps
 4	Update this README.txt to contain a short description of your project.
 
 Used Lidar Lite V3
+to compile use: make
