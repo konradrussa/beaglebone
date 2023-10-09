@@ -3,10 +3,8 @@ beaglebone samples based on BeagleBone Blue with Debian GNU/Linux 10 (buster)  a
 
 /boot/uEnv.txt is configured as follows:
 
-
-#Docs: http://elinux.org/Beagleboard:U-boot_partitioning_layout_2.0
-
 ```
+#Docs: http://elinux.org/Beagleboard:U-boot_partitioning_layout_2.0
 uname_r=4.19.94-ti-r42
 #uuid=
 dtb=am335x-boneblue.dtb
