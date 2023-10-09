@@ -15,4 +15,6 @@ own robotics cape project follow these steps
 
 Used Lidar Lite V3
 
-to compile use: make
+to compile use: 
+
+make
